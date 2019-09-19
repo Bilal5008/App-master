@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.NotificationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/id_timer_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:text="Time"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/id_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Time"
+                    android:textAlignment="center"
+                    android:textSize="30sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_sleep"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_sleep_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sleep"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/id_sleep_image"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="0.1"
+
+                    android:background="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_excercise"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_excercise_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sleep"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/id_excercise_image"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="0.1"
+
+                    android:background="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_water"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_water_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sleep"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/id_water_image"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="0.1"
+
+                    android:background="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_xx"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_xx_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sleep"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/id_xx_image"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="0.1"
+
+                    android:background="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_yy"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_yy_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sleep"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/id_yy_image"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="0.1"
+
+                    android:background="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_meal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_meal_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sleep"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/id_meal_image"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="0.1"
+
+                    android:background="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_habit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_habit_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sleep"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/id_habit_image"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="0.1"
+
+                    android:background="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_ketos"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_keto_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sleep"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/id_keto_image"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="0.1"
+
+                    android:background="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/id_prayer"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:clickable="true"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_prayer_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="0.9"
+                    android:text="Sleep"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:id="@+id/id_prayer_image"
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="60dp"
+                    android:layout_weight="0.1"
+
+                    android:background="@mipmap/ic_launcher_round" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

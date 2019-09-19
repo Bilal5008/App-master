@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+
+    <string-array name="meal_1_1">
+
+        <item>Cars</item>
+        <item>Bikes</item>
+
+
+    </string-array>
+    <string-array name="meal_1_2">
+
+        <item>Cars</item>
+        <item>Bikes</item>
+
+
+    </string-array>
+</resources>
